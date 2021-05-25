@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="formulario">
+        <label class="label">
+          <div>Nombre</div>
+          <input type="text" id="nombre" name="name" />
+        </label>
+        <label class="label">
+          <div>De lo aprendido hasta ahora, ¿qué tema te gustó más?</div>
+          <select name="fav-contents">
+            <option value="1">Clases</option>
+            <option value="2">Git</option>
+            <option value="3">Terminal</option>
+            <option value="4">Promesas</option>
+          </select>
+        </label>
+        <label class="label">
+          <div>Preferis estudiar</div>
+          <div>
+            <input type="radio" name="study-fav" id="" value="dia" />
+            de dia
+          </div>
+          <div>
+            <input type="radio" name="study-fav" id="" value="noche" />
+            de noche
+          </div>
+        </label>
+        <label class="label">
+          <div>¿Cuales fueron los temas más complejos hasta ahora?</div>
+          <div>
+            <input type="checkbox" name="study-dif" id="1" value="hola" />
+            Typescript
+          </div>
+          <div>
+            <input type="checkbox" name="study-dif" id="1" value="hola" />
+            Promesas
+          </div>
+          <div>
+            <input type="checkbox" name="study-dif" id="1" value="hola" />
+            Clases
+          </div>
+          <div>
+            <input type="checkbox" name="study-dif" id="1" value="hola" />
+            Funciones
+          </div>
+        </label>
+
+        <div>
+          <button class="btn-enviar">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

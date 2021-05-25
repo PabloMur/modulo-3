@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://www.mozilla.org/media/img/firefox/template/page-image-master.1b6efe3d5631.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: unset;
+  background-color: black;
+}
+
+.container {
+  background-color: rgba(136, 11, 238, 0.296);
+  backdrop-filter: blur(35px);
+  border: 0.5px solid white;
+  color: white;
+  height: 639px;
+  width: 566px;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 40px 55px;
+  border-radius: 6px;
+}
+
+form {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input,
+button,
+select {
+  min-height: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.btn-enviar {
+  padding: 18px 68px;
+  background-color: chocolate;
+  border: none;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
